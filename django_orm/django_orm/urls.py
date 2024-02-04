@@ -26,4 +26,6 @@ urlpatterns = [
     path("", include("hr.urls")),
     path('', include('elibrary_app.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
+    path('created/', views.CreatePostView.as_view(), name='post_created'),
+    path("accounts/", include("django.contrib.auth.urls")),
 ]

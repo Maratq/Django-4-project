@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'debug_toolbar',
     'elibrary_app',
+    'blog',
 ]
 
 MIDDLEWARE = [
